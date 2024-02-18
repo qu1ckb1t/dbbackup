@@ -43,7 +43,8 @@
 
 3.1.
 
-```Инкрементное резервное копирование в каталог /incr-backup/thursday на основе базового каталога /incr-backup/wednesday:
+```
+Инкрементное резервное копирование в каталог /incr-backup/thursday на основе базового каталога /incr-backup/wednesday:
 
 mysqlbackup --defaults-file=/home/dbadmin/my.cnf --incremental \
   --incremental-base=dir:/incr-backup/wednesday \
